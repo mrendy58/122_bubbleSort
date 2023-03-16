@@ -56,9 +56,14 @@ void display() {                            //procedur untuk menampilkan hasil
     for (int j = 0; j < n; j++) {          // looping dari j dimulai 0 hingga n-1
         cout << a[j] << endl;              // output ke layar
     }
-    cout << endl;
+    cout << endl;                          // output baris kosong
 }
-int main()                   
-{
-    std::cout << "Hello World!\n";
+int main() {                            
+    input();                           // memanggil procedur read()
+    unsorted();                        //memanggil prosedur unsorted()
+    bubbleSortArray();                // memanggil prosedur bubbleSortArray()
+    display();                        // memanggil prosedur display()
+
+
+    return 0;
 }
