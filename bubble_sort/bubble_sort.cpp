@@ -36,6 +36,17 @@ void bubbleSortArray() {                        //procedur untuk mengurutkan arr
         }
     }
 }
+
+void unsorted() {
+    cout << endl;                              //output baris kosong
+    cout << "==================================" << endl;  //output ke layar
+    cout << "Element Array yang telah tersusun" << endl;  //output ke layar
+    cout << "==================================" << endl; //output ke layar
+    for (int j = 0; j < n; j++) {               //looping dengan j dimulai dari 0 hingga n-1
+        cout << a[j] << endl;                   // output ke layar
+    }
+    cout << endl;
+}
 int main()                   
 {
     std::cout << "Hello World!\n";
